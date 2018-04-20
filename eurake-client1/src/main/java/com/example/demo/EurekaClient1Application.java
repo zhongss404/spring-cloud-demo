@@ -21,7 +21,7 @@ public class EurekaClient1Application {
 	private String port;
 
 	@RequestMapping(value = "/sayHi")
-	public String sayHi(String name){
-		return "hi " + name + " I come from " + port;
+	public String sayHi(){
+		return "hi! I come from " + port;
 	}
 }
